@@ -5,7 +5,7 @@ Log the environment in my house.
 I used these technologies.
 * ESP32
 * BME680
-* OLED
+* OLED (SSD1306)
 * Arduino
 * BSEC library
 
@@ -15,10 +15,21 @@ The MCU uses ESP32 for WIFI communication, data collection, and calculation.
 The device has an OLED display so you can see the same information.
 At the same time, the data is posted to ThingSpaek and can be checked on the cloud.
 
+# Preparation
+Prepare the environment for the arduino IDE.
+
+* ESP32
+* BSEC
+* ThingSpeak
+
+At my place, I am building BSEC with version 18.1.0 of Arduino IDE because the latest Arduino IDE has an error.
+
+
 # Prototyping
 ![IMG_5028](https://user-images.githubusercontent.com/75776044/108789013-a8ba1180-75bc-11eb-87a6-869029f46388.jpg)
 <br>
 <br>
+
 # ThingSpeak
 ![things](https://user-images.githubusercontent.com/75776044/108789294-4ca3bd00-75bd-11eb-8039-bd23f8c9968e.jpg)
 <br>
