@@ -1,4 +1,4 @@
-# homehealth
+# Home health
 
 Log the environment in your house.
 
