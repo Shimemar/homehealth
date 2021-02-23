@@ -2,10 +2,10 @@
 
 Log the environment in your house.
 
-_ ESP32
-_ BME680
-_ OLED
-_ Arduino
+* ESP32
+* BME680
+* OLED
+* Arduino
 
 
 BME680 is used as the sensor, and temperature, humidity, atmospheric pressure, and BSEC are used to measure eCO2 and bVOC.
